@@ -293,3 +293,10 @@ Example:
 git remote add origin <repository-url>
 
 <img width="1512" height="907" alt="Screenshot 2026-07-28 at 1 21 37 PM" src="https://github.com/user-attachments/assets/c69876b2-5103-49a5-8ffd-1a48def608c9" />
+
+
+## Managing Code with Remote Git Repositories
+
+### 1. Git Push
+
+The `git push` command uploads local commits to a remote Git repository such as GitHub.
