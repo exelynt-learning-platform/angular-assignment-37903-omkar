@@ -148,4 +148,103 @@ Working Directory → `git add` → Staging Area → `git commit` → Git Reposi
 
 <img width="1512" height="907" alt="Screenshot 2026-07-28 at 12 50 48 PM" src="https://github.com/user-attachments/assets/8cd398af-baea-47ff-8f63-fa646f0e9650" />
 
+## Tracking and Committing Changes in Git
+
+### Overview
+
+In this task, I practiced tracking files and committing changes using Git.
+
+I created two files, `file1.txt` and `file2.txt`, and checked their status using `git status`. I staged each file using `git add` and committed them separately with meaningful commit messages.
+
+### Git Commands Used
+
+```bash
+git status
+git add file1.txt
+git commit -m "Add first project file"
+
+git add file2.txt
+git commit -m "Add second project file"
+
+git log --oneline
+
+
+2. Create Files
+
+I created two new files named file1.txt and file2.txt:
+
+touch file1.txt file2.txt
+
+I then used git status to check the repository. Git identified both files as untracked files.
+
+3. Stage and Commit the First File
+
+I added file1.txt to the staging area using:
+
+git add file1.txt
+
+I then committed the staged file with a meaningful commit message:
+
+git commit -m "Add first project file"
+
+This created the first commit for the task.
+
+4. Stage and Commit the Second File
+
+I added file2.txt to the staging area:
+
+git add file2.txt
+
+I then created another commit:
+
+git commit -m "Add second project file"
+
+This created a second commit and demonstrated how Git tracks changes through multiple commits.
+
+5. View Commit History
+
+I viewed the commit history using:
+
+git log --oneline
+
+The command displayed the commit history in a concise format. It confirmed that multiple commits were successfully created with meaningful commit messages.
+
+6. Common Beginner Mistakes
+Mistake 1: Forgetting to Stage Changes
+
+A common beginner mistake is trying to commit changes without first adding them to the staging area.
+
+For example:
+
+git commit -m "Update files"
+
+If the changes have not been staged, Git will not include them in the commit.
+
+Solution:
+
+First stage the changes:
+
+git add <filename>
+
+Then create the commit:
+
+git commit -m "Meaningful commit message"
+Mistake 2: Using Unclear Commit Messages
+
+Another common mistake is using unclear commit messages such as update, changes, or test. These messages do not explain what was changed.
+
+Solution:
+
+Use clear and meaningful commit messages that describe the change, for example:
+
+git commit -m "Add user authentication validation"
+
+Meaningful commit messages make the project history easier to understand and help developers identify changes quickly.
+
+Conclusion
+
+Through this task, I learned how to check file status using git status, stage changes using git add, create commits using git commit, and view commit history using git log --oneline. I also learned the importance of using meaningful commit messages and avoiding common Git mistakes.
+
+
+<img width="1512" height="907" alt="Screenshot 2026-07-28 at 1 03 39 PM" src="https://github.com/user-attachments/assets/01fbc030-9572-4c13-b4d6-f6e638124180" />
 
