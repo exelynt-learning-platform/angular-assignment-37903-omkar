@@ -158,7 +158,6 @@ I created two files, `file1.txt` and `file2.txt`, and checked their status using
 
 ### Git Commands Used
 
-```bash
 git status
 git add file1.txt
 git commit -m "Add first project file"
@@ -248,3 +247,28 @@ Through this task, I learned how to check file status using git status, stage ch
 
 <img width="1512" height="907" alt="Screenshot 2026-07-28 at 1 03 39 PM" src="https://github.com/user-attachments/assets/01fbc030-9572-4c13-b4d6-f6e638124180" />
 
+
+
+## Merge Conflicts
+
+A merge conflict occurs when Git cannot automatically combine changes from two branches. This usually happens when two branches modify the same lines of the same file in different ways.
+
+For example, if the `main` branch and a feature branch both modify the same line in a file, Git cannot decide which change should be kept. Git marks the file as conflicted and requires the developer to resolve it manually.
+
+### Steps to Resolve a Merge Conflict
+
+1. Run the merge command.
+2. Open the file containing the conflict.
+3. Check the conflict markers:
+   - `<<<<<<< HEAD`
+   - `=======`
+   - `>>>>>>> branch-name`
+4. Decide which changes should be kept.
+5. Remove the conflict markers.
+6. Save the file.
+7. Stage the resolved file using `git add`.
+8. Commit the resolved changes using `git commit`.
+
+Merge conflicts are common when multiple developers work on the same files or when different branches contain conflicting changes.
+
+<img width="1512" height="907" alt="Screenshot 2026-07-28 at 1 15 13 PM" src="https://github.com/user-attachments/assets/b88b1978-c2bb-46bf-985f-e5d76cbda93f" />
