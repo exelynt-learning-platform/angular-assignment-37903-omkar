@@ -272,3 +272,24 @@ For example, if the `main` branch and a feature branch both modify the same line
 Merge conflicts are common when multiple developers work on the same files or when different branches contain conflicting changes.
 
 <img width="1512" height="907" alt="Screenshot 2026-07-28 at 1 15 13 PM" src="https://github.com/user-attachments/assets/b88b1978-c2bb-46bf-985f-e5d76cbda93f" />
+
+
+## Getting Started with GitHub and Remote Repositories
+
+### 1. GitHub Account
+
+I created and configured a GitHub account to manage my Git repositories and collaborate with other developers.
+
+### 2. Remote Repository
+
+A remote repository was created on GitHub to store the project code and maintain the project history remotely.
+
+### 3. Connecting Local Repository to GitHub
+
+The local Git repository was connected to the GitHub remote repository using the `git remote add origin` command.
+
+Example:
+
+git remote add origin <repository-url>
+
+<img width="1512" height="907" alt="Screenshot 2026-07-28 at 1 21 37 PM" src="https://github.com/user-attachments/assets/c69876b2-5103-49a5-8ffd-1a48def608c9" />
