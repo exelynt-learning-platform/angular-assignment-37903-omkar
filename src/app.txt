@@ -1,1 +1,2 @@
 This project demonstrates Git and GitHub version control concepts.
+Git helps developers track and manage changes to project files.
