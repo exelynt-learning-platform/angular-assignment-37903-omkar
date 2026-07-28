@@ -107,5 +107,45 @@ A Git repository was also initialized using `git init`, and the repository statu
 <img width="1512" height="907" alt="Screenshot 2026-07-28 at 12 32 16 PM" src="https://github.com/user-attachments/assets/8b1a1b5c-3434-42f4-8f38-61443e974933" />
 
 
+## Create and Understand a Git Repository
+
+### 1. Create a New Project Folder
+I created a new project folder named `git-repository-assessment`.
+
+### 2. Initialize Git Repository
+I initialized the project using `git init`. This created the `.git` folder, which stores Git's internal repository information, including commit history, branches, and configuration.
+
+### 3. Create a New File
+I created `index.txt` using `touch index.txt`.
+
+### 4. Check File Status
+I used `git status` to check the repository status. Initially, `index.txt` appeared as an untracked file.
+
+### 5. Add File to Staging Area
+I used `git add index.txt` to move the file to the staging area.
+
+### 6. Commit the File
+I committed the staged file using:
+
+`git commit -m "Initial commit"`
+
+### 7. Final Status
+I ran `git status` and confirmed:
+
+`nothing to commit, working tree clean`
+
+This confirms that the file was successfully committed.
+
+### Three Git File States
+
+- **Working Directory:** Where files are created and modified.
+- **Staging Area:** Where changes are prepared for the next commit using `git add`.
+- **Git Repository:** Where committed changes are stored in Git history.
+
+### Git Workflow
+
+Working Directory → `git add` → Staging Area → `git commit` → Git Repository
+
+<img width="1512" height="907" alt="Screenshot 2026-07-28 at 12 50 48 PM" src="https://github.com/user-attachments/assets/8cd398af-baea-47ff-8f63-fa646f0e9650" />
 
 
