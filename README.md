@@ -91,3 +91,21 @@ Distributed Version Control
 In a distributed system, each developer has a complete copy of the repository, including its history. Developers can commit changes and create branches locally without always needing a connection to a central server.
 
 Git is a distributed version control system. Developers can work independently and later share their changes with others through a remote repository such as GitHub.
+
+
+## Git Installation & Setup
+
+Git was successfully installed and verified using the `git --version` command.
+
+The global Git username and email were configured and verified using Git configuration commands.
+
+A Git repository was also initialized using `git init`, and the repository status was checked using `git status`.
+
+### Screenshot
+
+<img width="1512" height="907" alt="Screenshot 2026-07-28 at 12 32 28 PM" src="https://github.com/user-attachments/assets/7bb91152-4ad0-4010-b4c8-98f0202f2aa4" />
+<img width="1512" height="907" alt="Screenshot 2026-07-28 at 12 32 16 PM" src="https://github.com/user-attachments/assets/8b1a1b5c-3434-42f4-8f38-61443e974933" />
+
+
+
+
