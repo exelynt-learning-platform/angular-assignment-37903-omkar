@@ -318,7 +318,7 @@ The purpose of this assignment is to understand how developers collaborate using
 
 ## Repository Structure
 
-```text
+
 git-repository-assessment/
 ├── .gitignore
 ├── README.md
@@ -349,9 +349,28 @@ A basic GitHub workflow for a React project is:
 
 Example:
 
-```bash
+
 git clone <repository-url>
 git checkout -b feature/my-feature
 git add .
 git commit -m "feat: add new feature"
 git push origin feature/my-feature
+
+
+
+## Assignment Execution Evidence
+### 1. Git Branches and Repository Status
+### 2. Git Commit History
+### 3. Feature Branch Creation and Merge
+### 4. Remote Repository Configuration
+### 5. GitHub Repository
+### 6. Final Main Branch and Remote Synchronization
+
+<img width="1512" height="907" alt="Screenshot 2026-07-28 at 4 00 32 PM" src="https://github.com/user-attachments/assets/ad6ad87c-a840-4c95-ba49-61a5d20e43db" />
+<img width="1512" height="907" alt="Screenshot 2026-07-28 at 4 00 51 PM" src="https://github.com/user-attachments/assets/e1ea2caf-5ffe-4549-bc47-4df6bc93dab2" />
+<img width="1512" height="907" alt="Screenshot 2026-07-28 at 4 01 34 PM" src="https://github.com/user-attachments/assets/8a63da08-e7fa-474e-802d-de2a91d593d7" />
+<img width="1512" height="907" alt="Screenshot 2026-07-28 at 4 01 53 PM" src="https://github.com/user-attachments/assets/9ee505ca-123d-4491-9c49-f163ca065daf" />
+
+
+
+
